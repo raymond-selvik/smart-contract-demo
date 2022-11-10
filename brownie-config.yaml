@@ -1,0 +1,15 @@
+# Brownie configuration file
+# https://eth-brownie.readthedocs.io/en/stable/config.html
+dev_deployment_artifacts: true
+network:
+    default: development
+    development:
+        gas_limit: max
+        gas_buffer: 1
+        gas_price: 0
+        max_fee: null
+        priority_fee: null
+        reverting_tx_gas_limit: max
+        default_contract_owner: true
+        cmd_settings: null
+    
