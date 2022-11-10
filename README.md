@@ -1,2 +1,2 @@
 # smart-contract-demo
-Repo containing Solidity Smart Contracts for demostration purposes
+Repo containing Solidity Smart Contracts for demostration purposes.
