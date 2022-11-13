@@ -1,5 +1,11 @@
 # Brownie configuration file
 # https://eth-brownie.readthedocs.io/en/stable/config.html
+dependencies:
+  - smartcontractkit/chainlink-brownie-contracts@0.5.1
+compiler:
+  solc:
+    remappings:
+      - '@chainlink=smartcontractkit/chainlink-brownie-contracts@0.5.1'
 dev_deployment_artifacts: true
 network:
     default: development
